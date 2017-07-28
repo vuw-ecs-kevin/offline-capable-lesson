@@ -13,6 +13,9 @@ title: "Lesson Title"
 # or if it's a URL, "https://gitter.im/username/ProjectName".
 contact: "mailto:lessons@software-carpentry.org"
 
+# Default web-server Index page (can be blank)
+index: "index.html"
+
 #------------------------------------------------------------
 # Generic settings (should not need to change).
 #------------------------------------------------------------
