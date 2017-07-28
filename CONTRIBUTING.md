@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Contributing"
+permalink: /contributing/
+---
 # Contributing
 
 [Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
@@ -10,12 +15,12 @@ and reviews of proposed changes are all welcome.
 ## Contributor Agreement
 
 By contributing,
-you agree that we may redistribute your work under [our license](LICENSE.md).
+you agree that we may redistribute your work under [our license]({{ page.root }}/license/{{ site.index }}).
 In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
 Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
-agrees to abide by our [code of conduct](CONDUCT.md).
+agrees to abide by our [code of conduct]({{ page.root }}/conduct/{{ site.index }})
 
 ## How to Contribute
 
@@ -38,7 +43,7 @@ and to meet some of our community members.
     This allows us to assign the item to someone
     and to respond to it in a threaded discussion.
 
-3.  If you are comfortable with Git,
+3.  If you are comfortable with Git
     and would like to add or change material,
     you can submit a pull request (PR).
     Instructions for doing this are [included below](#using-github).
