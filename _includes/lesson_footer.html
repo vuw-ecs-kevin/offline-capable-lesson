@@ -19,15 +19,27 @@
       <h4>
 	{% if page.source %}
 	{% if page.source == "Rmd" %}
+	{% if site.github.repository_url %}
 	<a href="{{site.github.repository_url}}/edit/gh-pages/{{page.path|replace: "_episodes", "_episodes_rmd" | replace: ".md", ".Rmd"}}">Edit on GitHub</a>
+	{% else %}
+	<a href="{{site.static_repo_url}}/edit/gh-pages/{{page.path|replace: "_episodes", "_episodes_rmd" | replace: ".md", ".Rmd"}}">Edit on GitHub</a>
+	{% endif %}
 	{% endif %}
 	{% else %}
+	{% if site.github.repository_url %}
 	<a href="{{site.github.repository_url}}/edit/gh-pages/{{page.path}}">Edit on GitHub</a>
+	{% else %}
+	<a href="{{site.static_repo_url}}/edit/gh-pages/{{page.path}}">Edit on GitHub</a>
+	{% endif %}
 	{% endif %}
 	/
 	<a href="{{ page.root }}/contributing/{{ site.index }}">Contributing</a>
 	/
+	{% if site.github.repository_url %}
 	<a href="{{ site.github.repository_url }}/">Source</a>
+	{% else %}
+	<a href="{{ site.static_repo_url }}/">Source</a>
+	{% endif %}
 	/
 	<a href="{{ page.root }}/citation/{{ site.index }}">Cite</a>
 	/
