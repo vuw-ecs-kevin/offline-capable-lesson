@@ -16,6 +16,12 @@ SWC lessons will have become used to, as well as making it easier for
 content from within non-SWC lessons to be re-used withn official SWC
 material.
 
+Some of the issues raised in this Lesson have since been addressed
+within the core lesson style, however a few remain and so a newer
+revision of this work can be found at:
+
+https://pawsey-kbuckley.github.io/offline-capable-lesson/
+
 > ## Prerequisites
 >
 > This material assumes readers will have become familiar with the
