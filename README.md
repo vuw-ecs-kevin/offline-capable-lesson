@@ -17,3 +17,9 @@ material.
 Please see <https://vuw-ecs-kevin.github.io/offline-capable-lesson/>
 for a rendered version of this material, which is, effectively, a
 proof of concept, or rather, a proof of that part of the concept.
+
+Some of the issues raised in this Lesson have since been addressed
+within the core lesson style, however a few remain and so a newer
+revision of this work can be found at:
+
+https://pawsey-kbuckley.github.io/offline-capable-lesson/
